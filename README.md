@@ -1,6 +1,6 @@
 # StudentManaging-code
 
-This Studend managment system is an application built in VScode Using arryas and swing imports, and has the features of adding, veiwing, and deleting students/student records from the list.
+This Student managment system is an application built in VScode Using arryas and swing imports, and has the features of adding, veiwing, and deleting students/student records from the list.
 Features:
 Add a new student with ID, Name, and Age,
 View all added students

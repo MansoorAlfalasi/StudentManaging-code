@@ -29,7 +29,8 @@ public class Student {
         this.age = age;
     }
 
-    public String toString() {
-       return id + "-" + name + "-" + "(" + age + ")";
+    public String info() {
+       return id + " - " + name + " - " + " ( " + age + " ) ";
     }
 }
+

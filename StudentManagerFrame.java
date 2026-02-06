@@ -73,7 +73,7 @@ public class StudentManagerFrame extends JFrame {
 
         String output = "";
         for (Student s : students) {
-            output += s.toString() + "\n";
+            output += s.info() + "\n";
         } 
         }
 
@@ -107,5 +107,6 @@ public class StudentManagerFrame extends JFrame {
         return;
     }
 }
+
 
 

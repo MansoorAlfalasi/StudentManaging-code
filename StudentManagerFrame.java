@@ -19,7 +19,7 @@ public class StudentManagerFrame extends JFrame {
         setSize(400, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        //JButton creates a new button named as theyre respective uses require.
+        //JButton creates a new button named as theyre respective uses require, JButton is a constructer in the swing class
 
     
         JButton addBtn = new JButton("Add Student");
@@ -68,19 +68,22 @@ public class StudentManagerFrame extends JFrame {
             return;
         }
 
+        else {
+
         //This for loop is needed to create spacing between each person and their info.
 
         String output = "";
         for (Student s : students) {
             output += s.toString() + "\n";
         } 
+        }
 
         // Displays what the the for loop has created.
 
         JOptionPane.showMessageDialog(this, output);
     }
 
-    //This method i have created delets a certain student by their ID.
+    //This method deletes a certain student by their ID.
 
     public void deleteStudent() {
 
@@ -102,5 +105,7 @@ public class StudentManagerFrame extends JFrame {
         // If the certain id is not found the message "Student not found." Displays.
 
         JOptionPane.showMessageDialog(this, "Student not found.");
+        return;
     }
 }
+

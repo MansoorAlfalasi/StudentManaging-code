@@ -28,7 +28,6 @@ public class StudentManagerFrame extends JFrame {
 
 
         // These lines create use to the buttons and refers these methods from the class.
-
         addBtn.addActionListener(e -> addStudent());
         viewBtn.addActionListener(e -> viewStudents());
         deleteBtn.addActionListener(e -> deleteStudent());
@@ -36,7 +35,7 @@ public class StudentManagerFrame extends JFrame {
         // Jpanel creates a panel to hold in these buttons in.
         JPanel panel = new JPanel();
 
-        //These add the Jbutton/Actions we have created before into the panels
+        //These add the Jbutton/Actions we have created before into panels on the screen.
         
         panel.add(addBtn);
         panel.add(viewBtn);
@@ -108,4 +107,5 @@ public class StudentManagerFrame extends JFrame {
         return;
     }
 }
+
 

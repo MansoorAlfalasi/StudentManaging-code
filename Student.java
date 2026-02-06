@@ -30,7 +30,8 @@ public class Student {
     }
 
     public String info() {
-       return id + " - " + name + " - " + " ( " + age + " ) ";
+       return name + " - " + id + "  " + " ( " + age + " ) ";
     }
 }
+
 

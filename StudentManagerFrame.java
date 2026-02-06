@@ -67,8 +67,6 @@ public class StudentManagerFrame extends JFrame {
             return;
         }
 
-        else {
-
         //This for loop is needed to create spacing between each person and their info.
 
         String output = "";
@@ -107,6 +105,7 @@ public class StudentManagerFrame extends JFrame {
         return;
     }
 }
+
 
 
 

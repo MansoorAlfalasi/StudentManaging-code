@@ -16,8 +16,8 @@ public class LoginFrame extends JFrame {
 
         // 2 text feilds for the username and for the password set. and an action button that allows the user to log in.
 
-        JTextField user = new JTextField(12);
-        JPasswordField pass = new JPasswordField(12);
+        JTextField user = new JTextField(10);
+        JPasswordField pass = new JPasswordField(10);
         JButton login = new JButton("Login");
 
         // Jpanel is called to create a panel where the labels are stored/orginized.
@@ -39,7 +39,7 @@ public class LoginFrame extends JFrame {
             // Simple If statement used to "login" using proper username and password set, while closing the tab when the dispose method is used
             //  and opening the StudentManagerFrame class
 
-            if (user.getText().equals("admin") && String.valueOf(pass.getPassword()).equals("6767")) {
+            if (user.getText().equals("Hamida") && String.valueOf(pass.getPassword()).equals("6767")) {
                 new StudentManagerFrame();
                 dispose();
             } 
@@ -60,4 +60,5 @@ public class LoginFrame extends JFrame {
 }
 
     
+
 

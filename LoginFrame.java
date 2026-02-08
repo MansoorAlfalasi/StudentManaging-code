@@ -39,7 +39,7 @@ public class LoginFrame extends JFrame {
             // Simple If statement used to "login" using proper username and password set, while closing the tab when the dispose method is used
             //  and opening the StudentManagerFrame class
 
-            if (user.getText().equals("Hamida") && String.valueOf(pass.getPassword()).equals("6767")) {
+            if (user.getText().equals("Hamida") && String.valueOf(pass.getPassword()).equals("0001")) {
                 new StudentManagerFrame();
                 dispose();
             } 
@@ -60,5 +60,6 @@ public class LoginFrame extends JFrame {
 }
 
     
+
 
 

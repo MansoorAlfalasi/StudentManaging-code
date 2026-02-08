@@ -68,9 +68,11 @@ public class StudentManagerFrame extends JFrame {
         }
 
         //This for loop is needed to create spacing between each person and their info.
+        //tge get method from arraylist class is used to "select" thr students we want to show, in this case, all of them (for loop)
 
         String output = "";
-        for (Student s : students) {
+        for (int i = 0; i < students.size(); i++)) {
+            Student s = student.get(i)
             output += s.info() + "\n";
         } 
         }
@@ -105,6 +107,7 @@ public class StudentManagerFrame extends JFrame {
         return;
     }
 }
+
 
 
 

@@ -71,11 +71,11 @@ public class StudentManagerFrame extends JFrame {
         //tge get method from arraylist class is used to "select" thr students we want to show, in this case, all of them (for loop)
 
         String output = "";
-        for (int i = 0; i < students.size(); i++)) {
-            Student s = student.get(i)
+        for (int i = 0; i < students.size(); i++) {
+            Student s = students.get(i);
             output += s.info() + "\n";
         } 
-        }
+        
 
         // Displays what the the for loop has created.
 
@@ -84,7 +84,7 @@ public class StudentManagerFrame extends JFrame {
 
     //This method deletes a certain student by their ID.
 
-    public void deleteStudent() {
+    public void deleteStudent(){
 
         // This line creats a window where a message pops up where the user enters a certain ID which is stored in the variable "id".
 
@@ -99,14 +99,12 @@ public class StudentManagerFrame extends JFrame {
                 JOptionPane.showMessageDialog(this, "Student removed.");
            return;
             }
-        }
-        
+                
         // If the certain id is not found the message "Student not found." Displays.
 
         JOptionPane.showMessageDialog(this, "Student not found.");
         return;
-    }
-}
+    }}}
 
 
 
